@@ -1,0 +1,39 @@
+body {
+    width: 100%;
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%
+}
+
+#game-container {
+    justify-content: center;
+    text-align: center;
+    width: 26%;
+    margin-left: 37%;
+    margin-top: 37vh;
+    border: solid black;
+    border-radius: 25px;
+    padding: 70px 10px;
+    padding-bottom: 90px;
+    background-color: white;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border: solid black;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
