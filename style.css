@@ -1,19 +1,21 @@
 body {
     width: 100%;
-    background-image: url("Screenshot 2022-03-01 183529.png");
+    background-image: url("Background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%
 }
 
-.game-container {
+#game-container {
     justify-content: center;
     text-align: center;
-    width: 21%;
-    margin-left: 38.5%;
+    width: 26%;
+    margin-left: 37%;
     margin-top: 37vh;
-    padding: 10px;
-    padding-top: 10px;
+    border: solid black;
+    border-radius: 25px;
+    padding: 70px 10px;
+    padding-bottom: 90px;
     background-color: white;
 }
 

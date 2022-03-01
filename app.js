@@ -3,7 +3,7 @@ const computerChoiceDisplay = document.getElementById('computer-choice')
 const resultDisplay = document.getElementById('result')
 const possibleChoices = document.querySelectorAll('button')
 let userChoice
-let compterChoice
+let computerChoice
 let result
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
     userChoice = e.target.id
@@ -17,40 +17,47 @@ function generateComputerChoice() {
     console.log(randomNumber)
 
     if (randomNumber === 1) {
-        compterChoice = 'Rock'
+        computerChoice = 'Rock'
     }
 
     if (randomNumber === 2) {
-        compterChoice = 'Paper'
+        computerChoice = 'Paper'
     }
 
     if (randomNumber === 3) {
-        compterChoice = 'Scissors'
+        computerChoice = 'Scissors'
     }
-    computerChoiceDisplay.innerHTML = compterChoice
+    computerChoiceDisplay.innerHTML = computerChoice
 }
 
 function getResult() {
-    if (compterChoice === userChoice) {
+    if (computerChoice === userChoice) {
         result = "Draw!!"
+        document.getElementById("game-container").style.backgroundColor = "white";
     }
-    if (compterChoice === 'Rock' && userChoice === 'Paper') {
+    if (computerChoice === 'Rock' && userChoice === 'Paper') {
         result = 'You Win!!'
+        document.getElementById("game-container").style.backgroundColor = "green";
     }
-    if (compterChoice === 'Paper' && userChoice === 'Scissors') {
+    if (computerChoice === 'Paper' && userChoice === 'Scissors') {
         result = 'You Win!!'
+        document.getElementById("game-container").style.backgroundColor = "green";
     }
-    if (compterChoice === 'Scissors' && userChoice === 'Rock') {
+    if (computerChoice === 'Scissors' && userChoice === 'Rock') {
         result = 'You Win!!'
+        document.getElementById("game-container").style.backgroundColor = "green";
     }
-    if (compterChoice === 'Paper' && userChoice === 'Rock') {
+    if (computerChoice === 'Paper' && userChoice === 'Rock') {
         result = 'You Lose!!'
+        document.getElementById("game-container").style.backgroundColor = "red";
     }
-    if (compterChoice === 'Rock' && userChoice === 'Scissors') {
+    if (computerChoice === 'Rock' && userChoice === 'Scissors') {
         result = 'You Lose!!'
+        document.getElementById("game-container").style.backgroundColor = "red";
     }
-    if (compterChoice === 'Scissors' && userChoice === 'Paper') {
+    if (computerChoice === 'Scissors' && userChoice === 'Paper') {
         result = 'You Lose!!'
+        document.getElementById("game-container").style.backgroundColor = "red";
     }
     resultDisplay.innerHTML = result
 }
