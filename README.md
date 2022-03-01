@@ -8,6 +8,7 @@ How to run-
 3.Open index.html file with a web browser that supports javascript
 4.Enjoy!
 ###################################################################################
+
 Screenshots
 
 When its a Draw
