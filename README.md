@@ -24,4 +24,8 @@ It is a simple javascript game that plays rock-paper-scissors with the user usin
 
 For any queries please reach out to my linkdin https://www.linkedin.com/in/shreesha-r-bhat-a0a0241a2/
 
+<hr>
+
 <h3>There is also a Rock-PaperScissors-Lizard-Spock version of this available in <a href='/Rock-Paper-Scissors-Lizard-Spock'>here</a>, for all the Big bang theory(the series) fans.</h3>
+
+<hr>
