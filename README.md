@@ -22,7 +22,7 @@ It is a simple javascript game that plays rock-paper-scissors with the user usin
 
 <hr>
 
-<h3>Hey Big bang theory fans please find the rock-paper-scissor-lizard-spock version <a href='/Rock-Paper-Scissors-Lizard-Spock'>here</a></h3>
+<h3>Hey Big bang theory fans!<br>check out the Sheldon's verson of rock-paper-scissor-lizard-spock <a href='/Rock-Paper-Scissors-Lizard-Spock'>here</a></h3>
 
 <hr>
 
